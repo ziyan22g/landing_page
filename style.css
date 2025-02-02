@@ -1,0 +1,128 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 95%;
+    height: 90vh;
+    box-shadow: 2px 2px 15px black;
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(image.jpg); */
+}
+
+.con1 {
+    width: 100%;
+    height: 74vh;
+    background: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+nav .logo {
+    color: white;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+nav .links {
+    display: flex;
+    margin-right: 50px;
+}
+
+.links ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.links ul li a:hover {
+    color: rgb(235, 68, 68);
+    transition: .2s all;
+}
+
+.btn {
+    margin-left: 40px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(247, 70, 100);
+    border: 1px solid rgb(247, 70, 100);
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.heading h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.heading p {
+    color: rgba(255, 255, 255, 0.699);
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+}
+
+.heading .btn {
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid rgb(247, 70, 100);
+    transition: 1s;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-color: rgba(245, 222, 179, 0.758);
+    height: 16vh;
+}
+
+.con2 h1 {
+    font-family: Arial;
+}
+
+.con2 p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.431);
+}
